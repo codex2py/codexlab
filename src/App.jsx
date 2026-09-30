@@ -1,24 +1,31 @@
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-function App () {
+import SiteLayout from './layouts/SiteLayout'
+
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Experiments from './pages/Experiments'
+import BuildLog from './pages/BuildLog'
+import Now from './pages/Now'
+import About from './pages/About'
+import Contact from './pages/Contact'
+
+function App() {
   return (
-    <main className='site-shell'>
-      <div className="page-container">
-        <div className="foundation-preview">
-          <span className='eyebrow'>CODEX.PY / FOUNDATION</span>
-          <h1>A place to build, experiment, and ship.</h1>
-                    <p>
-            Codex Lab is a personal developer lab for projects,
-            experiments, build logs, and technical exploration.
-          </p>
-
-          <div className="foundation-meta">
-            <span>BUILD → EXPERIMENT → DOCUMENT → LEARN → SHIP</span>
-          </div>
-
-        </div>
-      </div>
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<SiteLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experiments" element={<Experiments />} />
+          <Route path="/build-log" element={<BuildLog />} />
+          <Route path="/now" element={<Now />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
+
 export default App
