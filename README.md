@@ -6,7 +6,7 @@
 
 Codex Lab is the digital workshop of **Sulaiman Abdussamad**, a front-end developer and AI engineering student.
 
-It is not another portfolio. It documents the work behind the work — projects, experiments, technical notes, ideas, things being learned, and things currently being built.
+It is not another portfolio. It documents the work behind the work: projects, experiments, technical notes, ideas, things being learned, and things currently being built.
 
 ## Philosophy
 
