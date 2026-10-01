@@ -79,6 +79,7 @@ const buildLogs = [
 function Home() {
   return (
     <div className="home-page">
+      {/* Hero */}
       <section className="home-hero">
         <div className="home-meta">
           <span>CODEX.PY</span>
@@ -177,10 +178,12 @@ function Home() {
           ))}
         </div>
       </section>
+
+      {/* Experiments */}
       <section className="home-section">
         <div className="home-section-label">
           <span>02</span>
-          <span>EXPERIENCE</span>
+          <span>EXPERIMENTS</span>
         </div>
         <div className="home-section-heading">
           <div>
@@ -213,6 +216,8 @@ function Home() {
           ))}
         </div>
       </section>
+
+      {/* Build Log */}
       <section className="home-section">
         <div className="home-section-label">
           <span>03</span>
@@ -250,6 +255,8 @@ function Home() {
           ))}
         </div>
       </section>
+
+      {/* Now */}
       <section className="home-section">
         <div className="home-section-label">
           <span>04</span>
@@ -279,7 +286,74 @@ function Home() {
           <div className="home-now-feature">
             <span>02 / LEARNING</span>
             <h3>AI Engineering</h3>
+            <p>
+              Exploring AI systems while continuing to build practical front-end
+              experiences.
+            </p>
           </div>
+        </div>
+        <div className="home-now-details">
+          <div>
+            <span>ROLE</span>
+            <strong>FRONT-END DEVELOPER</strong>
+          </div>
+          <div>
+            <span>FOCUS</span>
+            <strong>AI ENGINEERING</strong>
+          </div>
+          <div>
+            <span>STATUS</span>
+            <strong>OPEN TO WORK</strong>
+          </div>
+        </div>
+      </section>
+
+      {/* About */}
+      <section className="home-section">
+        <div className="home-section-label">
+          <span>05</span>
+          <span>ABOUT</span>
+        </div>
+        <div className="home-about">
+          <span className="home-section-kicker">
+            CODEX LAB / SULAIMAN ABDUSSAMAD
+          </span>
+          <h2>
+            The workshop behind
+            <span>the work.</span>
+          </h2>
+          <p>
+            Codex Lab is a personal engineering workspace for building,
+            experimenting, documenting, learning, and shipping. It is where
+            ideas become experiments and experiments become things worth
+            sharing.
+          </p>
+          <Link to="/about" className="home-button">
+            About Codex Lab
+            <ArrowUpRight size={15} strokeWidth={1.5} />
+          </Link>
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section className="home-section home-contact-section">
+        <div className="home-section-label">
+          <span>06</span>
+          <span>CONTACT</span>
+        </div>
+        <div className="home-contact">
+          <div>
+            <span className="home-section-kicker">TRANSMISSION OPEN</span>
+            <h2>Let's build something.</h2>
+            <p>
+              Open to opportunities, collaborations, interesting problems, and
+              conversations around technology.
+            </p>
+          </div>
+          <Link to="/contact" className="home-button home-button-primary">
+            Get In Touch
+            <ArrowUpRight size={15} strokeWidth={1.5} />
+          </Link>
         </div>
       </section>
     </div>
