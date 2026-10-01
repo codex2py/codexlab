@@ -166,3 +166,50 @@
 
 
 /* GENERAL SECTIONS */
+.home-section {
+    padding: 96px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+.home-section-label {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+}
+.home-section-label span:first-child {
+    color: var(--color-accent);
+}
+.home-section-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 32px;
+}
+.home-section-heading h2 {
+    max-width: 760px;
+    margin: 16px 0 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(42px, 5.5vw, 72px);
+    font-weight: 400;
+    line-height: 0.95;
+    letter-spacing: -0.045em;
+}
+.home-view-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--color-text-secondary);
+    transition: color 160ms ease;
+}
+.home-view-link:hover {
+    color: var(--color-text);
+}
+
+
+/* PROJECTS */
