@@ -337,3 +337,112 @@
 }
 
 /* NOW */
+.home-now-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    margin-top: 56px;
+    background: var(--color-border);
+    border: 1px solid var(--color-border);
+}
+.home-now-feature {
+    min-height: 260px;
+    padding: 28px;
+    background: var(--color-bg);
+}
+.home-now-feature > span {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--color-accent);
+}
+.home-now-feature h3 {
+    margin: 48px 0 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+}
+.home-now-feature p {
+    max-width: 420px;
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+}
+.home-now-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 1px;
+    border: 1px solid var(--color-border);
+}
+.home-now-details div:last-child {
+    border-right: 0;
+}
+.home-now-details span {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--color-text-muted);
+}
+.home-now-details strong {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+}
+
+
+/* ABOUT */
+.home-about {
+    max-width: 1000px;
+    padding-top: 24px;
+}
+.home-about h2 {
+    margin: 32px 0 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(52px, 7vw, 96px);
+    font-weight: 400;
+    line-height: 0.9;
+    letter-spacing: -0.055em;
+}
+.home-about h2 span {
+    display: block;
+    padding-left: 0.7em;
+}
+.home-about p {
+    max-width: 650px;
+    margin: 0 0 32px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+}
+
+
+/* CONTACT */
+.home-contact-section {
+    border-bottom: 0;
+}
+.home-contact {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 48px;
+    margin-top: 24px;
+}
+.home-contact h2 {
+    margin: 24px 0 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(52px 7vw, 96px);
+    font-weight: 400;
+    line-height: 0.9;
+    letter-spacing: -0.055em;
+}
+.home-contact p {
+    max-width: 540px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+}
+
+
+/* RESPONSIVENESS */
