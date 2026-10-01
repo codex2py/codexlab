@@ -1,16 +1,53 @@
-# React + Vite
+# CODEX.PY — Codex Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A personal engineering workspace for building, experimenting, documenting, learning, and shipping.
 
-Currently, two official plugins are available:
+**Live Website:** https://codex-lab.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Codex Lab is the digital workshop of **Sulaiman Abdussamad**, a front-end developer and AI engineering student.
 
-## React Compiler
+It is not another portfolio. It documents the work behind the work: projects, experiments, technical notes, ideas, things being learned, and things currently being built.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Philosophy
 
-## Expanding the ESLint configuration
+**BUILD → EXPERIMENT → DOCUMENT → LEARN → SHIP**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What You'll Find Here
+
+### Projects
+
+Selected projects and production work, with context around how they were built.
+
+### Experiments
+
+Small tools, prototypes, interface explorations, and technical experiments.
+
+### Build Log
+
+Development notes, technical decisions, lessons learned, and progress updates.
+
+### Now
+
+A snapshot of what I'm currently building, learning, and exploring.
+
+### About
+
+More about the person and philosophy behind Codex Lab.
+
+## Tech
+
+- React
+- JavaScript
+- Python
+- AI / Machine Learning
+- Modern Web APIs
+- HTML & CSS
+- Git & GitHub
+
+## Development
+
+```bash
+git clone https://github.com/codex2py/codexlab.git
+cd codexlab
+npm install
+npm run dev
