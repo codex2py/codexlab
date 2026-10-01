@@ -375,9 +375,18 @@
     margin-top: 1px;
     border: 1px solid var(--color-border);
 }
-.home-now-details div:last-child {
-    border-right: 0;
+.home-now-details div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 100px;
+  padding: 20px;
+  border-right: 1px solid var(--color-border);
 }
+.home-now-details div:last-child {
+  border-right: 0;
+}
+
 .home-now-details span {
     font-family: var(--font-mono);
     font-size: 9px;
