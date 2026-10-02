@@ -1,0 +1,276 @@
+.experiments-page {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+.experiments-container {
+    width: min(100% - 48px, var(--container-width));
+    margin: 0 auto;
+}
+
+/* Hero */
+.experiments-hero {
+    padding: 120px 0 100px;
+    border-bottom: 1px solid var(--color-border);
+}
+.experiments-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 88px;
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+.experiments-hero-grid {
+    display: grid;
+    grid-template-columns: 56px minmax(0, 1fr) 220px;
+    gap: 32px;
+    align-items: start;
+}
+.experiments-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--color-border);
+    color: var(--color-accent);
+}
+.experiments-intro {
+    max-width: 900px;
+}
+.experiments-eyebrow {
+    margin: 0 0 24px;
+    color: var(--color-accent);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+}
+.experiments-intro h1 {
+    margin: 0 0 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(64px, 9vw, 132px);
+    font-weight: 400;
+    line-height: 0.88;
+    letter-spacing: -0.055em;
+}
+.experiments-description {
+    max-width: 650px;
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 17px;
+    line-height: 1.7;
+}
+.experiments-hero-note {
+    display: flex;
+    grid-area: 12px;
+    padding-top: 8px;
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    line-height: 1.6;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+/* Shared section heading */
+.experiments-overview,
+.lab-notes {
+    padding: 112px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+.experiments-section-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 56px;
+}
+.experiments-section-heading > div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.section-number {
+    color: var(--color-accent);
+    font-family: var(--font-mono);
+    font-size: 11px;
+}
+.section-label {
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+}
+.experiments-section-heading p {
+    max-width: 430px;
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Experiment cards */
+.experiment-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-top: 1px solid var(--color-border);
+    border-left: 1px solid var(--color-border);
+}
+.experiment-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 390px;
+    padding: 32px;
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    transition: background-color 220ms ease;
+}
+.experiment-card:hover {
+    background: var(--color-surface);
+}
+.experiment-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.experiment-number{
+    color: var(--color-accent);
+    font-family: var(--font-mono);
+    font-size: 11px;
+}
+.experiment-status {
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.1em;
+}
+.experiment-card-content {
+    margin-top: auto;
+    margin-bottom: 48px;
+}
+.experiment-card-content h2 {
+    margin: 0 0 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(32px, 4vw, 52px);
+    font-weight: 400;
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+}
+.experiment-card-content p {
+    max-width: 460px;
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 1.75;
+}
+.experiment-card-bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.experiment-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.experiment-tags span {
+    padding: 6px 8px;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.08em;
+}
+.experiment-card-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
+    transition: 
+        color 180ms ease,
+        border-color 180ms ease,
+        transform 180ms ease;
+}
+.experiment-card:hover .experiment-card-arrow {
+    border-color: var(--color-text);
+    color: var(--color-text);
+    transform: translate(2px, -2px);
+}
+
+/* Lab notes */
+.lab-notes-list {
+    border-top: 1px solid var(--color-border);
+}
+.lab-note {
+    display: grid;
+    grid-template-columns: 80px minmax(0, 1fr) 32px;
+    gap: 32px;
+    align-items: start;
+    padding: 40px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+.lab-note-number {
+    color: var(--color-accent);
+    font-family: var(--font-mono);
+    font-size: 11px;
+}
+.lab-note-content {
+    display: grid;
+    grid-template-columns: minmax(200px, 0.7fr) minmax(280px, 1fr);
+    gap: 48px;
+}
+.lab-note-content h2 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(24px, 3vw, 36px);
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.025em;
+}
+.lab-note-content p {
+    max-width: 500px;
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 1.75;
+}
+.lab-note-icon {
+    color: var(--color-text-muted);
+}
+ /* Footer */
+ .experiment-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+ }
+ .experiment-footer-content > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+ }
+ .footer-status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--color-accent);
+ }
+ .experiment-footer p {
+    max-width: 620px;
+    margin: 24px 0 0;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 1.7;
+ }
