@@ -51,3 +51,4 @@ git clone https://github.com/codex2py/codexlab.git
 cd codexlab
 npm install
 npm run dev
+<img width="1889" height="877" alt="Screenshot 2026-10-01 203417" src="https://github.com/user-attachments/assets/46554fbf-456a-45e4-a366-fb5d172c0762" />
