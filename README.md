@@ -7,6 +7,7 @@
 Codex Lab is the digital workshop of **Sulaiman Abdussamad**, a front-end developer and AI engineering student.
 
 It is not another portfolio. It documents the work behind the work: projects, experiments, technical notes, ideas, things being learned, and things currently being built.
+<img width="1889" height="877" alt="Screenshot 2026-10-01 203417" src="https://github.com/user-attachments/assets/f5c1d68a-132f-4370-9e2d-7253dcf178b4" />
 
 ## Philosophy
 
@@ -51,3 +52,7 @@ git clone https://github.com/codex2py/codexlab.git
 cd codexlab
 npm install
 npm run dev
+
+
+
+
