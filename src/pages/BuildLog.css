@@ -158,3 +158,79 @@
     line-height: 1.7;
 }
 
+
+/* Responsive */
+@media (max-width: 800px) {
+    .build-log-hero {
+        padding: 96px 0 72px;
+    }
+    .build-log-meta {
+        margin-bottom: 56px;
+    }
+    .build-log-entry {
+        grid-template-columns: 56px minmax(0, 1fr);
+        gap: 16px;
+    }
+    .build-log-notes-content {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+}
+
+@media (max-width: 600px) {
+    .build-log-container {
+        width: min(100% - 32px, var(--container-width));
+    }
+    .build-log-hero {
+        padding: 72px 0 56px;
+    }
+    .build-log-meta {
+        margin-bottom: 44px;
+        font-size: 9px;
+    }
+    .build-log-meta span:last-child {
+        display: none;
+    }
+    .build-log-intro h1 {
+        margin-bottom: 24px;
+        font-size: clamp(56px, 20vw, 88px);
+    }
+    .build-log-intro p {
+        font-size: 15px;
+    }
+    .build-log-entries {
+        padding-bottom: 80px;
+    }
+    .build-log-entry{
+        grid-template-columns: 36px minmax(0, 1fr);
+        gap: 12px;
+        padding: 36px 0;
+    }
+    .build-log-entry-top {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 14px;
+    }
+    .build-log-tags {
+        justify-content: flex-start;
+    }
+    .build-log-entry h2 {
+        font-size: 30px;
+    }
+    .build-log-entry p {
+        font-size: 14px;
+    }
+    .build-log-notes {
+        padding-bottom: 80px;
+}
+    .build-log-notes-content {
+        padding-top: 48px;
+        gap: 40px;
+    }
+    .build-log-notes-content h2 {
+        font-size: 42px;
+    }
+    .build-log-footer{
+        padding: 56px 0 80px;
+    }
+}
