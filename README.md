@@ -1,3 +1,4 @@
+<img width="1889" height="877" alt="Screenshot 2026-10-01 203417" src="https://github.com/user-attachments/assets/58d6de2b-4c95-40f3-95a1-97b06f44083f" />
 # CODEX.PY — Codex Lab
 
 > A personal engineering workspace for building, experimenting, documenting, learning, and shipping.
@@ -7,6 +8,8 @@ Codex Lab is a personal developer lab built by **Sulaiman Abdussamad**.
 It is not another portfolio. It documents the work behind the work — projects, experiments, build logs, things I’m learning, and things I’m currently building.
 
 **Live Website:** https://codex-lab.netlify.app/
+
+<img width="1889" height="877" alt="Screenshot 2026-10-01 203417" src="https://github.com/user-attachments/assets/da8ce8bd-c3dd-4eaa-80b0-e2cc89d7e4ba" />
 
 ---
 
