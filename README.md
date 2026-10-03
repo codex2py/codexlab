@@ -6,7 +6,7 @@ Codex Lab is a personal developer lab built by **Sulaiman Abdussamad**.
 
 It is not another portfolio. It documents the work behind the work — projects, experiments, build logs, things I’m learning, and things I’m currently building.
 
-**Live website:** https://codex-lab.netlify.app/
+**Live Website:** https://codex-lab.netlify.app/
 
 ---
 
@@ -29,9 +29,9 @@ The site currently includes:
 
 ---
 
-## How to experience it
+## How to Experience It
 
-### Live website
+### Live Website
 
 The easiest way to experience Codex Lab is through the live website:
 
@@ -39,7 +39,7 @@ https://codex-lab.netlify.app/
 
 You can use the navigation bar to explore the different sections of the site and visit the projects listed on the Projects page.
 
-### Run locally
+### Run Locally
 
 To recreate the project locally, you need:
 
@@ -47,79 +47,102 @@ To recreate the project locally, you need:
 - npm
 - Git
 
-
 Clone the repository:
 
-```bash
-git clone https://github.com/codex2py/codexlab.git
- ```
+    git clone https://github.com/codex2py/codexlab.git
 
 Move into the project directory:
-cd codexlab
+
+    cd codexlab
 
 Install the dependencies:
-npm install
+
+    npm install
 
 Start the development server:
-npm run dev
+
+    npm run dev
 
 Vite will provide a local development URL, usually:
-http://localhost:5173
+
+    http://localhost:5173
 
 Open the URL in a browser to experience the project locally.
-Production build
+
+---
+
+## Production Build
+
 To create a production build:
-npm run build
+
+    npm run build
 
 To preview the production build:
-npm run preview
 
-Technology
+    npm run preview
+
+---
+
+## Technology
+
 Codex Lab is built with:
-- React — building the user interface
-- Vite — development and production tooling
-- JavaScript — application logic
-- React Router — page routing
-- Plain CSS — styling, layout, responsiveness, and interactions
-- Lucide React — interface icons
-The project does not use Tailwind, Bootstrap, Material UI, or another CSS framework.
-Project structure
-The application is organized around pages, reusable site components, and a shared layout.
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── Navbar.css
-│   ├── Footer.jsx
-│   └── Footer.css
-│
-├── layouts/
-│   ├── SiteLayout.jsx
-│   └── SiteLayout.css
-│
-├── pages/
-│   ├── Home.jsx
-│   ├── Home.css
-│   ├── Projects.jsx
-│   ├── Projects.css
-│   ├── Experiments.jsx
-│   ├── Experiments.css
-│   ├── BuildLog.jsx
-│   ├── BuildLog.css
-│   ├── Now.jsx
-│   ├── Now.css
-│   ├── About.jsx
-│   ├── About.css
-│   ├── Contact.jsx
-│   └── Contact.css
-│
-├── App.jsx
-├── index.css
-└── main.jsx
 
-Each major page has its own JSX and CSS, making the project relatively easy to understand and modify.
-Design
+- **React** — building the user interface
+- **Vite** — development and production tooling
+- **JavaScript** — application logic
+- **React Router** — page routing
+- **Plain CSS** — styling, layout, responsiveness, and interactions
+- **Lucide React** — interface icons
+
+The project does not use Tailwind, Bootstrap, Material UI, or another CSS framework.
+
+---
+
+## Project Structure
+
+The application is organized around pages, reusable site components, and a shared layout.
+
+    src/
+    ├── components/
+    │   ├── Navbar.jsx
+    │   ├── Navbar.css
+    │   ├── Footer.jsx
+    │   └── Footer.css
+    │
+    ├── layouts/
+    │   ├── SiteLayout.jsx
+    │   └── SiteLayout.css
+    │
+    ├── pages/
+    │   ├── Home.jsx
+    │   ├── Home.css
+    │   ├── Projects.jsx
+    │   ├── Projects.css
+    │   ├── Experiments.jsx
+    │   ├── Experiments.css
+    │   ├── BuildLog.jsx
+    │   ├── BuildLog.css
+    │   ├── Now.jsx
+    │   ├── Now.css
+    │   ├── About.jsx
+    │   ├── About.css
+    │   ├── Contact.jsx
+    │   └── Contact.css
+    │
+    ├── App.jsx
+    ├── index.css
+    └── main.jsx
+
+Each major page has its own JSX and CSS, making the project easy to understand and modify.
+
+---
+
+## Design
+
 The visual direction of Codex Lab is minimal and editorial.
+
 The site uses:
+
 - Black and off-white surfaces
 - Restrained red accents
 - Large typography
@@ -128,31 +151,62 @@ The site uses:
 - Simple borders
 - Responsive layouts
 - Subtle interactions
+
 The goal is for the site to feel more like a personal engineering workspace than a traditional portfolio or SaaS dashboard.
-Projects
+
+---
+
+## Projects
+
 The current projects featured in Codex Lab are:
-Wrkbench
+
+### Wrkbench
+
 https://wrkbench.netlify.app/
-Codex Travels
+
+### Codex Travels
+
 https://codextravels.netlify.app/
-North Star Studio
+
+### North Star Studio
+
 https://north-starstudio.netlify.app/
-Maison
+
+### Maison
+
 https://maison-web.netlify.app/
-Doctors Association Platform
+
+### Doctors Association Platform
+
 https://docsassociation.netlify.app/
-Development
+
+---
+
+## Development
+
 Codex Lab is an ongoing project.
+
 The site will continue to change as I build new things, try new technologies, document what I learn, and improve the existing pages.
+
 Current status:
-BUILDING
-Author
-Sulaiman Abdussamad
+
+**BUILDING**
+
+---
+
+## Author
+
+**Sulaiman Abdussamad**
+
 Front-end Developer · AI Engineering Student · Builder
+
 GitHub: https://github.com/codex2py
-License
+
+---
+
+## License
+
 This is a personal project created to document my work, experiments, and learning process.
-```
 
 
 
