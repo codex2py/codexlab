@@ -47,10 +47,12 @@ To recreate the project locally, you need:
 - npm
 - Git
 
+
 Clone the repository:
 
 ```bash
 git clone https://github.com/codex2py/codexlab.git
+ ```
 
 Move into the project directory:
 cd codexlab
@@ -151,5 +153,8 @@ GitHub: https://github.com/codex2py
 License
 This is a personal project created to document my work, experiments, and learning process.
 ```
+
+
+
 
 
