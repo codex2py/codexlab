@@ -1,0 +1,195 @@
+.now-page {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--color-bg);
+    color: var(--color-text);
+} 
+
+.now-container {
+    width: min(100% - 48px, var(--container-width));
+    margin: 0 auto;
+}
+.now-hero {
+    padding: 120px 0 96px;
+    border-bottom: 1px solid var(--color-border);
+}
+.now-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 72px;
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+.now-intro {
+    max-width: 850px;
+}
+.now-intro h1 {
+    margin: 0 0 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(64px, 9vw, 132px);
+    font-weight: 400;
+    line-height: 0.9;
+    letter-spacing: -0.055em;
+}
+.now-intro p {
+    max-width: 620px;
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 17px;
+    line-height: 1.7;
+}
+.now-focus {
+    padding: 0 0 112px;
+}
+.now-section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+.now-focus-item {
+    display: grid;
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 24px;
+    padding: 48px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+.now-focus-number {
+    color: var(--color-accent);
+    font-family: var(--font-mono);
+    font-size: 11px;
+}
+.now-focus-content {
+    max-width: 900px;
+}
+.now-focus-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 18px;
+}
+.now-focus-top h2 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: clamp(30px, 4vw, 48px);
+    line-height: 1;
+    letter-spacing: -0.08em;
+}
+.now-focus-top span {
+    flex-shrink: 0;
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+}
+.now-focus-content p {
+    max-width: 650px;
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 15px;
+    line-height: 1.75;
+}
+.now-learning {
+    padding: 0 0 112px;
+    border-bottom: 1px solid var(--color-border);
+}
+.now-learning-content {
+    display: grid;
+    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
+    gap: 80px;
+    padding-top: 64px;
+}
+.now-learning-content h2 {
+    max-width: 520px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(36px, 5vw, 64px);
+    font-weight: 400;
+    line-height: 0.98;
+    letter-spacing: -0.04em;
+}
+.now-learning-list {
+    border-top: 1px solid var(--color-border);
+}
+.now-learning-item {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    gap: 20px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+.now-learning-item span {
+    color: var(--color-accent);
+    font-family: var(--font-mono);
+    font-size: 10px;
+}
+.now-learning-item p {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    line-height: 1.5;
+}
+.now-status {
+    padding: 80px 0 112px;
+}
+.now-status-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 48px;
+}
+.now-status-label {
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+}
+.now-status-content h2 {
+    margin: 16px 0 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(36px, 5vw, 64px);
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
+.now-status-indicator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 6px;
+}
+.now-status-indicator span {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--color-accent);
+}
+.now-status-indicator p {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+}
+.now-status-description {
+    max-width: 520px;
+    margin: 40px 0 0 auto;
+    color: var(--color-text-muted);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* Responsive */
