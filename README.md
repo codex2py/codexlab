@@ -155,7 +155,6 @@ The site uses:
 - Responsive layouts
 - Subtle interactions
 
-The goal is for the site to feel more like a personal engineering workspace than a traditional portfolio or SaaS dashboard.
 
 ---
 
