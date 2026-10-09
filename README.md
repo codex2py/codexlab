@@ -168,8 +168,6 @@ This is a guide to the main application files. Some directories and filenames ma
 
 ## Design Approach
 
-I wanted Codex Lab to feel like a personal workspace rather than a generic portfolio template.
-
 The design uses a dark background, light text, restrained red accents, simple borders, and typography that keeps the focus on the content.
 
 The goal is to make the projects and development process easy to explore without adding unnecessary visual clutter.
@@ -200,4 +198,4 @@ Frontend Developer and AI Engineering Student.
 
 ## License
 
-No license file was found in the repository when it was checked. No license is specified here.
+© 2026 Sulaiman Abdussamad. All rights reserved.
