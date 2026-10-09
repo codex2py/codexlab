@@ -1,7 +1,6 @@
 import { Outlet } from 'react-router-dom'
 
 import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 
 import './SiteLayout.css'
 
@@ -14,7 +13,6 @@ function SiteLayout() {
         <Outlet />
       </main>
 
-      <Footer />
     </div>
   )
 }
