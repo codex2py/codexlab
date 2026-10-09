@@ -7,7 +7,7 @@ import Projects from './pages/Projects'
 import Experiments from './pages/Experiments'
 import BuildLog from './pages/BuildLog'
 import Now from './pages/Now'
-// import About from './pages/About'
+import About from './pages/About'
 import Contact from './pages/Contact'
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
           <Route path="/experiments" element={<Experiments />} />
           <Route path="/build-log" element={<BuildLog />} />
           <Route path="/now" element={<Now />} />
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
