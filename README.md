@@ -5,7 +5,7 @@
 
 Codex Lab is a personal developer lab built by **Sulaiman Abdussamad**.
 
-It is not another portfolio. It documents the work behind the work — projects, experiments, build logs, things I’m learning, and things I’m currently building.
+It documents the work behind the projects, experiments, build logs, things I’m learning, and things I’m currently building.
 
 **Live Website:** https://codex-lab.netlify.app/
 
@@ -155,7 +155,6 @@ The site uses:
 - Responsive layouts
 - Subtle interactions
 
-The goal is for the site to feel more like a personal engineering workspace than a traditional portfolio or SaaS dashboard.
 
 ---
 
