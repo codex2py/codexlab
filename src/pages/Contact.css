@@ -103,3 +103,122 @@
     outline: 1px solid var(--color-accent);
     outline-offset: 3px;
 }
+
+.contact-item-number {
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 11px;
+}
+
+.contact-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-secondary);
+}
+.contact-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    min-width: 0;
+}
+
+.contact-item-label {
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+}
+
+.contact-item-value {
+    overflow-wrap: anywhere;
+    color: var(--color-text);
+    font-size: clamp(14px, 2vw, 17px);
+}
+
+.contact-item-arrow {
+    color: var(--color-text-muted);
+    transition: 
+        color 180ms ease,
+        transform 180ms ease;
+}
+
+.contact-item:hover .contact-item-arrow {
+    color: var(--color-accent);
+    transform: translate(2px, -2px);
+}
+
+/* bottom section */
+.contact-bottom {
+    padding: 26px 0 38px;
+    border-top: 1px solid var(--color-border);
+}
+
+.contact-bottom .contact-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.contact-bottom-label {
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+}
+
+.contact-bottom p {
+    max-width: 350px;
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 13px;
+    line-height: 1.7;
+    text-align: right;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+    .contact-container {
+        width: calc(100% - 36px);
+    }
+    .contact-hero {
+        padding-top: 20px;
+        padding-bottom: 72px;
+    }
+    .contact-intro {
+        padding-top: 66px;
+    }
+    .contact-intro h1 {
+        font-size: clamp(3.2rem, 15vw, 3.5rem);
+    }
+    .contact-intro p {
+        margin-top: 24px;
+        font-size: 14px;
+    }
+    .contact-details {
+        padding: 34px 0 72px;
+    }
+    .contact-item {
+        grid-template-columns: 24px 24px minmax(0, 1fr) 20px;
+        gap: 12px;
+        padding: 22px 0;
+    }
+    .contact-item-value {
+        font-size: 13px;
+    }
+    .contact-bottom .contact-container {
+        flex-direction: column;
+        gap: 14px;
+    }
+    .contact-bottom p {
+        text-align: left;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .contact-item,
+    .contact-item-arrow {
+        transition: none;
+    }
+}
