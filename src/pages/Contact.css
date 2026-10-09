@@ -1,4 +1,4 @@
-/* .contact-page {
+.contact-page {
     min-height: 70vh;
     background: var(--color-bg);
     color: var(--color-text);
@@ -46,10 +46,10 @@
     line-height: 0.98;
 }
 
-.contract-intro h1 span {
+.contact-intro h1 span {
     color: var(--color-text-muted);
 }
-.contract-intro p {
+.contact-intro p {
     max-width: 470px;
     margin-top: 30px;
     color: var(--color-text-secondary);
@@ -69,5 +69,37 @@
     color: var(--color-text-muted);
     font-family: var(--font-mono);
     font-size: 11px;
+    letter-spacing: 0.08em;
 }
- */
+
+.contact-section-heading span:first-child {
+    color: var(--color-accent);
+}
+.contact-list {
+    border-top: 1px solid var(--color-border);
+}
+
+.contact-item {
+    display: grid;
+    grid-template-columns: 36px 32px minmax(0, 1fr) 24px;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 4px;
+    border-bottom: 1px solid var(--color-border);
+    color: inherit;
+    text-decoration: none;
+    transition: 
+        background-color 180ms ease,
+        padding 180ms ease;
+}
+
+.contact-item:hover {
+    padding-right: 12px;
+    padding-left: 12px;
+    background: var(--color-surface);
+}
+
+.contact-item:focus-visible {
+    outline: 1px solid var(--color-accent);
+    outline-offset: 3px;
+}
