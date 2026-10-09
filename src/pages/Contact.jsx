@@ -54,7 +54,7 @@ function Contact() {
             <span>06 / CONTACT</span>
             <span>CODEX.PY</span>
           </div>
-          <div className="contact-info">
+          <div className="contact-intro">
             <span>GET IN TOUCH</span>
 
             <h1>
