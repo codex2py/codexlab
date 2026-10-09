@@ -2,9 +2,9 @@ import {
   ArrowUpRight,
   Mail,
   Phone,
-  Github,
-  Linkedin,
+  Code2,
   AtSign,
+  Globe,
 } from 'lucide-react'
 import './Contact.css'
 
@@ -26,14 +26,14 @@ const contacts = [
     label: 'GITHUB',
     value: 'github.com/codex2py',
     href: 'https://github.com/codex2py',
-    icon: Github,
+    icon: Code2,
     external: true,
   },
   {
     label: 'LINKEDIN',
     value: 'Abdussamad Sulaiman',
     href: 'https://www.linkedin.com/in/abdussamad-sulaiman-213b11329/?isSelfProfile=true',
-    icon: Linkedin,
+    icon: Globe,
     external: true,
   },
   {
@@ -97,7 +97,7 @@ function Contact() {
                     <span className='contact-item-label'>
                       {contact.label}
                     </span>
-                    <span className='conatct-item-value'>
+                    <span className='contact-item-value'>
                       {contact.value}
                     </span>
                   </span>

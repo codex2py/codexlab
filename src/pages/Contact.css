@@ -1,0 +1,73 @@
+/* .contact-page {
+    min-height: 70vh;
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+.contact-container {
+    width: min(100% - 48px, var(--container-width));
+    margin: 0 auto;
+}
+
+/* hero */
+.contact-hero {
+    padding: 28px 0 100px;
+    border-bottom: 1px solid var(--color-border);
+}
+.contact-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+}
+
+.contact-intro {
+    max-width: 800px;
+    padding-top: 88px;
+}
+.contact-eyebrow {
+    display: inline-block;
+    margin-bottom: 22px;
+    color: var(--color-accent);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.12em;
+}
+
+.contact-intro h1 {
+    margin: 0;
+    font-size: clamp(3.5rem, 8vw, 73.5rem);
+    font-weight: 500;
+    letter-spacing: -0.075em;
+    line-height: 0.98;
+}
+
+.contract-intro h1 span {
+    color: var(--color-text-muted);
+}
+.contract-intro p {
+    max-width: 470px;
+    margin-top: 30px;
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* contact details */
+
+.contact-details {
+    padding: 44px 0 100px;
+}
+.contact-section-heading {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 26px;
+    color: var(--color-text-muted);
+    font-family: var(--font-mono);
+    font-size: 11px;
+}
+ */
